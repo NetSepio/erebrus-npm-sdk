@@ -1,12 +1,15 @@
-# Erebrus DVPN npm SDK
+# Erebrus DVPN Client
 
 A Node.js client for the Erebrus Decentralized VPN (DVPN) service. This package provides a simple interface to connect to the Erebrus DVPN network using WireGuard and the new API key/organization-based authentication flow.
 
 ## Prerequisites
 
+- **Linux system required** (tested on Ubuntu, Debian, Manjaro, Arch etc.)
+- **Sudo/root access required** (needed for WireGuard operations)
 - Node.js (v14 or higher)
 - WireGuard installed on your system
-- Sudo privileges (required for WireGuard operations)
+
+> **Note:** This SDK is designed for Linux environments. WireGuard operations require sudo privileges to create and manage VPN interfaces.
 
 ## Installation
 

@@ -1,0 +1,33 @@
+{
+  "name": "erebrus",
+  "version": "1.1.2",
+  "description": "A Node.js client for Erebrus DVPN service",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node examples/basic-usage.js"
+  },
+  "keywords": [
+    "erebrus",
+    "dvpn",
+    "vpn",
+    "wireguard",
+    "decentralized-vpn"
+  ],
+  "author": "Netsepio",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.7.0",
+    "node-fetch": "^2.6.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NetSepio/erebrus-npm-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NetSepio/erebrus-npm-sdk/issues"
+  },
+  "homepage": "https://github.com/NetSepio/erebrus-npm-sdk#readme"
+}

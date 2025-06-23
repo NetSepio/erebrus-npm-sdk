@@ -1,4 +1,4 @@
-# Erebrus DVPN Client
+# Erebrus DVPN npm SDK
 
 A Node.js client for the Erebrus Decentralized VPN (DVPN) service. This package provides a simple interface to connect to the Erebrus DVPN network using WireGuard and the new API key/organization-based authentication flow.
 
